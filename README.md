@@ -1,7 +1,8 @@
 # 👋 Hi, I'm Amogh Arora  
 
-🎓 B.Tech in Artificial Intelligence & Machine Learning @ GGSIPU (2022–2026)  
-📍 AIML Enthusiast | 💻 Python Developer | 📊 Data Science & ML Explorer  
+ B.Tech in Artificial Intelligence & Machine Learning @ GGSIPU (2022–2026)  
+ AI/ML Engineer | Model Trainer | Python Developer | FastAPI Enthusiast
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amogh-arora-b68056259/) 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/ShriAmogh) 
@@ -53,18 +54,6 @@
 ![Amogh's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShriAmogh&show_icons=true&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShriAmogh&layout=compact&theme=radical)  
 
----
-
-## 🎯 Extracurriculars  
-
-- ✅ Qualified **GATE Data Science 2025**  
-- 👨‍🏫 Conducted **Python workshops** for juniors as Tech Lead @ Nexus AI Society  
-
----
-
-## 💡 Interests  
-
-📌 Machine Learning | Natural Language Processing | Reinforcement Learning | Optimization | Statistics  
 
 ---
 
