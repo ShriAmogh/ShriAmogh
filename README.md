@@ -10,7 +10,7 @@
 
 ---
 
-## ⚡ Technical Skills  
+##  Technical Skills  
 
 - **Languages:** Python, C/C++, SQL  
 - **Web Tech:** FastAPI, LangChain, Selenium, HTML, CSS  
@@ -21,7 +21,7 @@
 
 ---
 
-## 💼 Experience  
+##  Experience  
 
 **Software Engineer Intern – Arya.ag (Jul 2024 – Oct 2024)**  
 - Automated **multi-page web data extraction** with Selenium & CSV export.  
@@ -35,7 +35,7 @@
 
 ---
 
-## 🚀 Projects  
+##  Projects  
 
 🔹 [**Fine-Tuning of Qwen2.5-1.5B Model**](https://github.com/ShriAmogh/Qwen-Qwen1.5-2.5B_Fine-tuning)  
 - Fine-tuned Qwen1.5 using **LoRA** on a custom math reasoning dataset.  
