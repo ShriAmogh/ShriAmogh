@@ -1,16 +1,72 @@
-## Hi there 👋
+# 👋 Hi, I'm Amogh Arora  
 
-<!--
-**ShriAmogh/ShriAmogh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 B.Tech in Artificial Intelligence & Machine Learning @ GGSIPU (2022–2026)  
+📍 AIML Enthusiast | 💻 Python Developer | 📊 Data Science & ML Explorer  
 
-Here are some ideas to get you started:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amogh-arora-b68056259/) 
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/ShriAmogh) 
+[![Email](https://img.shields.io/badge/Email-amogharora99%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:amogharora99@gmail.com)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## ⚡ Technical Skills  
+
+- **Languages:** Python, C/C++, SQL  
+- **Web Tech:** FastAPI, LangChain, Selenium, HTML, CSS  
+- **Databases:** SQLite, PostgreSQL, MongoDB  
+- **AI & ML:** PyTorch, TensorFlow, Keras, Scikit-learn, Pydantic  
+- **Core Concepts:** DSA, Machine Learning, Deep Learning, DBMS, OS, OOPS  
+- **Tools:** Git, GitHub, VS Code, Docker  
+
+---
+
+## 💼 Experience  
+
+**Software Engineer Intern – Arya.ag (Jul 2024 – Oct 2024)**  
+- Automated **multi-page web data extraction** with Selenium & CSV export.  
+- Achieved **96% accuracy** with RandomForest on a multilingual dataset via custom preprocessing + Google Translate API.  
+- Applied **image processing (contour-based masking + classification)** to identify crop types.  
+
+**Software Developer Intern – Duco Consultancy (Jul 2024 – Aug 2024)**  
+- Designed and implemented **MongoDB schema** for scalable data handling.  
+- Built & deployed **Express.js backend services**, fully integrated with frontend.  
+- Streamlined workflows by loading **large datasets into MongoDB** for scalability.  
+
+---
+
+## 🚀 Projects  
+
+🔹 [**Fine-Tuning of Qwen2.5-1.5B Model**](https://github.com/ShriAmogh/Qwen-Qwen1.5-2.5B_Fine-tuning)  
+- Fine-tuned Qwen1.5 using **LoRA** on a custom math reasoning dataset.  
+- Applied **8-bit quantization** (BitsAndBytes) for efficient low-resource inference.  
+- Achieved **179% improvement in accuracy** over baseline.  
+
+🔹 [**Retrieval-Augmented Generation**](https://github.com/ShriAmogh/rag_langchain)  
+- Built **RAG system** using LangChain + ChromaDB for semantic search.  
+- Integrated PDF & website loaders with **MiniLM embeddings**.  
+- Deployed via **FastAPI + Docker**, exposing REST endpoints for retrieval.  
+
+---
+
+## 📊 GitHub Stats  
+
+![Amogh's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShriAmogh&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShriAmogh&layout=compact&theme=radical)  
+
+---
+
+## 🎯 Extracurriculars  
+
+- ✅ Qualified **GATE Data Science 2025**  
+- 👨‍🏫 Conducted **Python workshops** for juniors as Tech Lead @ Nexus AI Society  
+
+---
+
+## 💡 Interests  
+
+📌 Machine Learning | Natural Language Processing | Reinforcement Learning | Optimization | Statistics  
+
+---
+
+⭐️ From [ShriAmogh](https://github.com/ShriAmogh)  
+
