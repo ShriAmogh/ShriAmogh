@@ -13,7 +13,7 @@
 ##  Technical Skills  
 
 - **Languages:** Python, C/C++, SQL  
-- **Web Tech:** FastAPI, LangChain, Selenium, HTML, CSS  
+- **Web Tech:** FastAPI, LangChain, LangGraph, Selenium, HTML, CSS  
 - **Databases:** SQLite, PostgreSQL, MongoDB  
 - **AI & ML:** PyTorch, TensorFlow, Keras, Scikit-learn, Pydantic  
 - **Core Concepts:** DSA, Machine Learning, Deep Learning, DBMS, OS, OOPS  
