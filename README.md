@@ -23,15 +23,17 @@
 
 ##  Experience  
 
+**Software Developer Intern – Duco Consultancy (Jul 2025 – Aug 2025)**  
+- Designed and implemented **MongoDB schema** for scalable data handling.  
+- Built & deployed **Express.js backend services**, fully integrated with frontend.  
+- Streamlined workflows by loading **large datasets into MongoDB** for scalability.
+
 **Software Engineer Intern – Arya.ag (Jul 2024 – Oct 2024)**  
 - Automated **multi-page web data extraction** with Selenium & CSV export.  
 - Achieved **96% accuracy** with RandomForest on a multilingual dataset via custom preprocessing + Google Translate API.  
-- Applied **image processing (contour-based masking + classification)** to identify crop types.  
+- Applied **image processing (contour-based masking + classification)** to identify crop types.
 
-**Software Developer Intern – Duco Consultancy (Jul 2024 – Aug 2024)**  
-- Designed and implemented **MongoDB schema** for scalable data handling.  
-- Built & deployed **Express.js backend services**, fully integrated with frontend.  
-- Streamlined workflows by loading **large datasets into MongoDB** for scalability.  
+  
 
 ---
 
