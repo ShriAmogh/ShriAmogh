@@ -42,10 +42,10 @@
 - Applied **8-bit quantization** (BitsAndBytes) for efficient low-resource inference.  
 - Achieved **179% improvement in accuracy** over baseline.  
 
-🔹 [**Retrieval-Augmented Generation**](https://github.com/ShriAmogh/rag_langchain)  
-- Built **RAG system** using LangChain + ChromaDB for semantic search.  
-- Integrated PDF & website loaders with **MiniLM embeddings**.  
-- Deployed via **FastAPI + Docker**, exposing REST endpoints for retrieval.  
+🔹 [**Memory-Augmented RAG with Semantic Caching**]([https://github.com/ShriAmogh/rag_langchain](https://github.com/ShriAmogh/Memory-Augmented-RAG-with-Semantic-Caching))  
+- Developed a **memory-augmented RAG** system using **LangGraph** with tool/function calling for modular orchestration.
+- Implemented **semantic caching** with MiniLM embeddings to deliver faster, consistent answers to repeated/paraphrased queries. 
+- Integrated **zero-shot classification** for intelligent query routing between flan-T5-small and retriever, and deployed a **FastAPI backend** exposing REST APIs.
 
 ---
 
