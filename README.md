@@ -24,6 +24,7 @@
 ##  Experience  
 
 **Agentic AI Engineer Inter - AlgorithmX (Nov 2025 - Dec 2025)**
+
 • Architected a scalable FastAPI backend with clean service-repository design, async ORM, and optimized DB interactions, and built a bidirectional WebSocket system enabling session pooling, real-time state sync, and multi-user event pipelines.
 • Developed a JSON-to-graph compiler that converted JSON into structured DAG, enabling automated code generation.
 • Engineered a multi-agent workflow using Microsoft Autogen, creating custom routing logic and orchestrated agent collaboration for automated code generation and validation.
