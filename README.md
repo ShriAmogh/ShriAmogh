@@ -49,12 +49,7 @@
 - Implemented **semantic caching** with MiniLM embeddings to deliver faster, consistent answers to repeated/paraphrased queries. 
 - Integrated **zero-shot classification** for intelligent query routing between flan-T5-small and retriever, and deployed a **FastAPI backend** exposing REST APIs.
 
----
 
-##  GitHub Stats  
-
-![Amogh's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShriAmogh&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShriAmogh&layout=compact&theme=radical)  
 
 
 ---
