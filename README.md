@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Amogh Arora  
+#  Hi, I'm Amogh Arora  
 
  B.Tech in Artificial Intelligence & Machine Learning @ GGSIPU (2022–2026)  
  AI/ML Engineer | Model Trainer | Python Developer | FastAPI Enthusiast
