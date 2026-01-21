@@ -49,7 +49,7 @@
 - Applied **8-bit quantization** (BitsAndBytes) for efficient low-resource inference.  
 - Achieved **179% improvement in accuracy** over baseline.  
 
-🔹 [**Memory-Augmented RAG with Semantic Caching**](https://github.com/ShriAmogh/Memory-Augmented-RAG-with-Semantic-Caching) 
+🔹 [**Agentic Retrieval-Augmented Generation System**](https://github.com/ShriAmogh/Memory-Augmented-RAG-with-Semantic-Caching) 
  - Implemented a Hybrid Agentic RAG pipeline combining BM25 lexical retrieval, dense vector search
 (all-MiniLM-L6-v2), and cross-encoder re-ranking to select the most relevant academic context with high precision.
 
@@ -59,6 +59,13 @@ logic, and state propagation, enabling deterministic orchestration of retrieval,
 - Built an end-to-end agentic JSON generation and validation loop, where an LLM generates structured outputs and a
 Pydantic-based validator enforces schema correctness, feeds errors back to the generator, and ensures reliable,
 production-ready responses.
+
+🔹 [**RAGFlow-Django**](https://github.com/ShriAmogh/RAGFlow-Django) 
+ - Engineered an end-to-end RAG pipeline with document ingestion, chunking, embedding, vector similarity search, and cross-encoder re-ranking, retrieving top-K high-relevance chunks and integrating an LLM to re-generate grounded, context-aware answers based on re-ranker scores for improved accuracy and reduced hallucinations.
+
+- Designed a scalable Django backend with authentication-protected routes, session-based user isolation, PostgreSQL persistence, and modular app architecture, ensuring clean separation between auth, ingestion, and query workflows.
+
+- Implemented asynchronous processing and scalability patterns using Celery for background indexing, job-based progress tracking, and non-blocking request handling, making the system resilient to heavy document loads and multi-user concurrency.
 
 
 
