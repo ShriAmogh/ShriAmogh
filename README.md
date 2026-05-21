@@ -13,15 +13,21 @@
 ##  Technical Skills  
 
 - **Languages:** Python, C/C++, SQL  
-- **Backend Development:** FastAPI, Django, WebSockets, REST APIs, Selenium 
+- **Backend Development:** FastAPI, Django, WebSockets, REST APIs, GraphQL
 - **Databases:** SQLite, PostgreSQL, MongoDB  
 - **Infra & Dev Tools:** Git, GitHub, VS Code, Docker
-- **AI & Integrations:** PyTorch, TensorFlow, Keras, Scikit-learn, Pydantic, Autogen, LangChain, LangGraph
+- **AI & Integrations:** PyTorch, TensorFlow, Keras, Scikit-learn, Pydantic, LangChain, LangGraph, NLP, RAG, MCP, RAGAS, APO, Agentic Frameworks, Transformers,                            LLM APIs
+- **Web Scraping:** Puppeteer, Selenium, Headless Browsers, DOM Extraction, OAuth Handshake
 - **Core Concepts:** Data Structures & Algorithms, Machine Learning, Deep Learning, DBMS, OS, OOPS  
 
 ---
 
 ##  Experience  
+
+**AI Engineer Intern - Fractics (Feb 2026 - May 2026)**
+- Engineered RAG & Ingestion Pipelines: Integrated **MCP servers** into an existing RAG system utilizing **bidirectional WebSocket streaming**, and built an end-to-end RSS ingestion pipeline to extract and enrich structured data on startup funding, acquisitions, and founders.
+- Developed Advanced Prompting & Evaluation Systems: Implemented Chain-of-Thought RAG with real-time step-by-step UI streaming, created an **APO system** for prompt refinement using golden datasets, and evaluated the entire pipeline using **RAGAS** with custom domain metrics.
+- Built Authenticated Scraping Architecture: Developed a headless Puppeteer scraping pipeline for DOM-level extraction that handles **OAuth login handshakes** to retrieve refresh tokens, enabling automated and authenticated access to gated data sources.
 
 **Agentic AI Engineer Intern - AlgorithmX (Nov 2025 - Dec 2025)**
 - Architected a scalable **FastAPI backend** with clean service-repository design, async ORM, and optimized DB interactions, and built a bidirectional WebSocket system enabling session pooling, real-time state sync, and multi-user event pipelines.
