@@ -50,21 +50,21 @@
 
 ##  Projects  
 
-🔹 [**Fine-Tuning of Qwen2.5-1.5B Model**](https://github.com/ShriAmogh/Qwen-Qwen1.5-2.5B_Fine-tuning)  
-- Fine-tuned Qwen1.5 using **LoRA** on a custom math reasoning dataset.  
-- Applied **8-bit quantization** (BitsAndBytes) for efficient low-resource inference.  
-- Achieved **179% improvement in accuracy** over baseline.  
+🔹 [**Natural Language to SQL**](https://github.com/ShriAmogh/NL2SQL)  
+- Fine-tuned Qwen2.5-1.5B via LoRA adapters on the Spider dataset using Kaggle GPUs, implementing completion-only
+loss masking and Cosine scheduling to reduce training loss to 0.02.  
+- Implemented 4-bit QLoRA quantization (NF4 precision), successfully reducing model GPU memory footprint by 73% and
+optimizing query generation latency during local inference runs. 
+- Developed a two-layer validation framework combining local SQLite execution row-matching with a Gemini LLM Judge
+to audit query semantics, achieving a 90% execution accuracy (a 10% absolute increase over the base model’s 80%
+baseline).
 
 🔹 [**Agentic Retrieval-Augmented Generation System**](https://github.com/ShriAmogh/Memory-Augmented-RAG-with-Semantic-Caching) 
- - Implemented a Hybrid Agentic RAG pipeline combining BM25 lexical retrieval, dense vector search
-(all-MiniLM-L6-v2), and cross-encoder re-ranking to select the most relevant academic context with high precision.
+ - Architected a query-aware Hybrid RAG engine combining BM25 lexical retrieval, dense semantic search (Sentence-Transformers), and Cross-Encoder re-ranking (ms-marco-MiniLM-L-6-v2) in ChromaDB, integrating natural language intent and date extraction to eliminate temporal hallucinations.
 
-- Designed a LangGraph-based agentic workflow by constructing an explicit execution graph with conditional routing, retry
-logic, and state propagation, enabling deterministic orchestration of retrieval, generation, and evaluation steps.
-
-- Built an end-to-end agentic JSON generation and validation loop, where an LLM generates structured outputs and a
-Pydantic-based validator enforces schema correctness, feeds errors back to the generator, and ensures reliable,
-production-ready responses.
+- Engineered a multi-agent state machine using LangGraph featuring an iterative self-correcting validation loop for Pydantic schema enforcement, a ComparativeAgent for multi-paper synthesis, and an AuditAgent that computes automated hallucination scores (0–100%) for factual grounding.
+  
+- Developed an end-to-end full-stack AI platform using FastAPI and React (Vite), engineering asynchronous REST endpoints and an interactive UI for live PDF document ingestion, side-by-side literature review matrix rendering, and multi-turn grounded QA.
 
 🔹 [**RAGFlow-Django**](https://github.com/ShriAmogh/RAGFlow-Django) 
  - Engineered an end-to-end RAG pipeline with document ingestion, chunking, embedding, vector similarity search, and cross-encoder re-ranking, retrieving top-K high-relevance chunks and integrating an LLM to re-generate grounded, context-aware answers based on re-ranker scores for improved accuracy and reduced hallucinations.
