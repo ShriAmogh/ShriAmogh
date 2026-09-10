@@ -15,7 +15,7 @@
 - **Languages:** Python, C/C++, SQL  
 - **Backend Development:** FastAPI, Django, WebSockets, REST APIs, GraphQL
 - **Databases:** SQLite, PostgreSQL, MongoDB  
-- **Infra & Dev Tools:** Git, GitHub, VS Code, Docker
+- **Infra & Dev Tools:** Git, GitHub, VS Code, Docker, Apache Airflow
 - **AI & Integrations:** PyTorch, TensorFlow, Keras, Scikit-learn, Pydantic, LangChain, LangGraph, NLP, RAG, MCP, RAGAS, APO, Agentic Frameworks, Transformers,                            LLM APIs
 - **Web Scraping:** Puppeteer, Selenium, Headless Browsers, DOM Extraction, OAuth Handshake
 - **Core Concepts:** Data Structures & Algorithms, Machine Learning, Deep Learning, DBMS, OS, OOPS  
@@ -65,6 +65,19 @@ baseline).
 - Engineered a multi-agent state machine using LangGraph featuring an iterative self-correcting validation loop for Pydantic schema enforcement, a ComparativeAgent for multi-paper synthesis, and an AuditAgent that computes automated hallucination scores (0–100%) for factual grounding.
   
 - Developed an end-to-end full-stack AI platform using FastAPI and React (Vite), engineering asynchronous REST endpoints and an interactive UI for live PDF document ingestion, side-by-side literature review matrix rendering, and multi-turn grounded QA.
+
+🔹 [**Industrial-Sensor-ELT-Pipeline**](https://github.com/ShriAmogh/Industrial-Sensor-ELT-Pipeline) 
+ - Designed a production-grade ELT pipeline on 10,000 real industrial sensor records (AI4I 2020), implementing a Kimball star
+schema with surrogate-key dimensions, staging-layer feature engineering (Kelvin-to-Celsius conversion, mechanical power
+derivation, overstrain metrics), and idempotent upserts for full reprocessability.
+
+- Orchestrated the 5-stage pipeline with an Apache Airflow DAG using XCom-based batch lineage, automated retries, and 8
+data quality gates (null checks, range validation, referential integrity) with a circuit-breaker pattern that halts downstream
+loads on critical failures.
+
+- Built a live FastAPI observability dashboard serving real-time warehouse metrics, an interactive SQL sandbox with preloaded
+queries and analytics views computing rolling Z-score anomaly detection across sensor telemetry.
+
 
 🔹 [**RAGFlow-Django**](https://github.com/ShriAmogh/RAGFlow-Django) 
  - Engineered an end-to-end RAG pipeline with document ingestion, chunking, embedding, vector similarity search, and cross-encoder re-ranking, retrieving top-K high-relevance chunks and integrating an LLM to re-generate grounded, context-aware answers based on re-ranker scores for improved accuracy and reduced hallucinations.
