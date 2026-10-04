@@ -22,6 +22,40 @@
 
 ---
 
+## Live Project
+
+**undertow-llm** 
+
+A Python library that wraps any LLM call with a single decorator and gives it semantic caching, rate limiting, retries, fallback chains, and a live observability dashboard, without changing your underlying function.
+
+'pip install undertow-llm'
+
+Features
+- Semantic caching — embeds prompts as vectors and checks cosine similarity before hitting the API; identical or near-identical prompts return cached responses in ~15ms
+- Rate limiting — token-bucket limiter per function; blocks and queues requests instead of throwing 429s
+- Retries with exponential backoff — automatic retries on transient failures, with configurable jitter to prevent thundering herds
+- Fallback chain — if the primary model fails after all retries, cascades through a list of backup functions automatically
+- Canary routing — splits a percentage of traffic to an alternate function for safe A/B testing between models
+- Policy hook — custom callable that can allow, block, or flag a request before it's sent
+- Streaming support — works with generator and async generator responses; logs and caches on stream exhaustion
+- Distributed tracing — every call gets a trace_id and span_id; nested @track calls inherit the parent trace
+- Live dashboard — run undertow-llm serve to open a FastAPI + Chart.js dashboard showing cache hits, latency, cost, and request logs in real time
+- Pluggable storage — SQLite with WAL mode for local dev; PostgreSQL + pgvector + Redis for production
+
+
+Tech Stack
+- Python — core library
+- SentenceTransformers (all-MiniLM-L6-v2) — prompt embedding for semantic cache
+- SQLite — default local storage with WAL mode
+- PostgreSQL + pgvector — production vector storage
+- Redis — distributed rate limiting and token bucket state
+- FastAPI — observability dashboard backend
+- Chart.js — real-time metrics charts in the dashboard
+- contextvars — per-thread/task trace context propagation
+- ThreadPoolExecutor — background metrics writes, non-blocking
+
+---
+
 ##  Experience  
 
 **AI Engineer Intern - Fractics (Feb 2026 - May 2026)**
