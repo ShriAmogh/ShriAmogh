@@ -22,13 +22,16 @@
 
 ---
 
-## Live Project
+## Live Project 
 
-**undertow-llm** 
+[**undertow-llm**](https://pypi.org/project/undertow-llm/) -- Published on PYPI
 
 A Python library that wraps any LLM call with a single decorator and gives it semantic caching, rate limiting, retries, fallback chains, and a live observability dashboard, without changing your underlying function.
 
-'pip install undertow-llm'
+**'pip install undertow-llm'**
+
+Usage 
+from undertow_llm import track
 
 Features
 - Semantic caching — embeds prompts as vectors and checks cosine similarity before hitting the API; identical or near-identical prompts return cached responses in ~15ms
