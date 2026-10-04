@@ -30,7 +30,8 @@ A Python library that wraps any LLM call with a single decorator and gives it se
 
 **'pip install undertow-llm'**
 
-Usage 
+Usage
+
 from undertow_llm import track
 
 Features
