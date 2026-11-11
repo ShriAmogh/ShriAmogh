@@ -13,12 +13,12 @@
 ##  Technical Skills  
 
 - **Languages:** Python, C/C++, SQL  
-- **Backend Development:** FastAPI, Django, WebSockets, REST APIs, GraphQL
-- **Databases:** SQLite, PostgreSQL, MongoDB  
-- **Infra & Dev Tools:** Git, GitHub, VS Code, Docker, Apache Airflow
-- **AI & Integrations:** PyTorch, TensorFlow, Keras, Scikit-learn, Pydantic, LangChain, LangGraph, NLP, RAG, MCP, RAGAS, APO, Agentic Frameworks, Transformers,                            LLM APIs
-- **Web Scraping:** Puppeteer, Selenium, Headless Browsers, DOM Extraction, OAuth Handshake
-- **Core Concepts:** Data Structures & Algorithms, Machine Learning, Deep Learning, DBMS, OS, OOPS  
+- **Software Engineering:** Data Structures & Algorithms, OOPS, DBMS, Operating Systems, REST APIs, WebSockets
+- **Backend:** FastAPI, Django, Pydantic, PostgreSQL, MongoDB, SQLite
+- **AI/ML:** PyTorch, TensorFlow, Keras, Scikit-learn, Transformers, NLP, RAG, LangChain, LangGraph, MCP, RAGAS, DeepEval,
+LangSmith, APO, Agentic Frameworks, LLM APIs
+- **Systems & DevOps:** Linux, Docker, AWS (S3, Lambda, IAM), CI/CD, Git, GitHub, Apache Airflow, Bash
+- **Automation** Pytest, Selenium, Playwright, Postman, Puppeteer, Headless Browsers, DOM Extraction, OAuth
 
 ---
 
@@ -101,6 +101,9 @@ baseline).
  - Architected a query-aware Hybrid RAG engine combining BM25 lexical retrieval, dense semantic search (Sentence-Transformers), and Cross-Encoder re-ranking (ms-marco-MiniLM-L-6-v2) in ChromaDB, integrating natural language intent and date extraction to eliminate temporal hallucinations.
 
 - Engineered a multi-agent state machine using LangGraph featuring an iterative self-correcting validation loop for Pydantic schema enforcement, a ComparativeAgent for multi-paper synthesis, and an AuditAgent that computes automated hallucination scores (0–100%) for factual grounding.
+
+-  Built an automated LLM evaluation pipeline using RAGAS and DeepEval, benchmarking faithfulness, answer relevancy,
+context precision/recall, correctness, and citation accuracy against curated golden datasets.
   
 - Developed an end-to-end full-stack AI platform using FastAPI and React (Vite), engineering asynchronous REST endpoints and an interactive UI for live PDF document ingestion, side-by-side literature review matrix rendering, and multi-turn grounded QA.
 
