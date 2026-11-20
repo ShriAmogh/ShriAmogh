@@ -97,7 +97,7 @@ optimizing query generation latency during local inference runs.
 to audit query semantics, achieving a 90% execution accuracy (a 10% absolute increase over the base model’s 80%
 baseline).
 
-🔹 [**Agentic Retrieval-Augmented Generation System**](https://github.com/ShriAmogh/Memory-Augmented-RAG-with-Semantic-Caching) 
+🔹 [**Agentic Retrieval-Augmented Generation System**](https://github.com/ShriAmogh/agentic_rag_system) 
  - Architected a query-aware Hybrid RAG engine combining BM25 lexical retrieval, dense semantic search (Sentence-Transformers), and Cross-Encoder re-ranking (ms-marco-MiniLM-L-6-v2) in ChromaDB, integrating natural language intent and date extraction to eliminate temporal hallucinations.
 
 - Engineered a multi-agent state machine using LangGraph featuring an iterative self-correcting validation loop for Pydantic schema enforcement, a ComparativeAgent for multi-paper synthesis, and an AuditAgent that computes automated hallucination scores (0–100%) for factual grounding.
